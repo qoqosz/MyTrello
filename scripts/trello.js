@@ -98,7 +98,7 @@ function dumps() {
             items["items"].push(li[j].innerText);
         }
 
-        state["lists"].push(item);
+        state["lists"].push(items);
     }
 
     return state;
